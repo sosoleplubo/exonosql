@@ -5,5 +5,5 @@ client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
 
-for doc in collection.find():
+for doc in collection.find({},{nom:}):
     print(doc)
