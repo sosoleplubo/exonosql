@@ -1,3 +1,7 @@
 venv/
 .env/
 .venv/
+data/arbres.json
+data/data1.json
+data/data2.json
+data/data3.json
