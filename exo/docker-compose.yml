@@ -1,0 +1,6 @@
+services:
+  mongo:
+    image: mongo:latest
+    container_name: IABDNOSQL
+    ports:
+      - "27018:27017"
